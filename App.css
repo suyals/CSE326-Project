@@ -1,0 +1,363 @@
+#app {
+    background-color: #f2fce6;
+}
+
+#backgroundImg {
+    background: url(../img/background.jpg) center no-repeat;
+    background-size: cover;
+    color: #ffff;
+    height: 600px;
+}
+
+#blogs {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#blogsTitle {
+    padding-top: 80px;
+}
+
+#redTitle {
+    font-size: 32px;
+    font-weight: bold;
+    color: rgb(255, 0, 85);
+}
+
+#redTitle div {
+    margin-bottom: 10px;
+    /* background-color: red; */
+}
+
+#border {
+    width: 50px;
+    height: 3px;
+    background-color: rgb(255, 0, 85);
+    margin: auto;
+}
+
+#Effectieve {
+    font-size: 17px;
+    margin: auto;
+}
+
+.slide-container {
+    padding: 50px;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    background-color: #f1f1f1;
+}
+
+.textSlide {
+    width: 90%;
+    margin: auto;
+}
+
+.slideTitle {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.titleBotmBorder {
+    height: 2px;
+    width: 70px;
+    background-color: #5798ff;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.slideText {
+    line-height: 35px;
+    font-size: 20px;
+}
+
+.slideName {
+    margin-top: 30px;
+    font-size: 22px;
+}
+
+.arrow-btn {
+    position: absolute;
+    /* Keep the buttons positioned absolutely */
+    transform: translateY(-200%);
+    /* Adjust for vertical centering */
+    font-size: 30px;
+    /* Size of the arrow */
+    color: white;
+    /* Color of the arrows */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Background for better visibility */
+    border-radius: 50%;
+    /* Rounded background */
+    width: 40px;
+    /* Width of the button */
+    height: 40px;
+    /* Height of the button */
+    display: flex;
+    /* Center the icon */
+    align-items: center;
+    /* Center vertically */
+    justify-content: center;
+    /* Center horizontally */
+    cursor: pointer;
+    /* Change cursor to pointer */
+    user-select: none;
+    /* Prevent text selection */
+    z-index: 1000;
+    /* Ensure the buttons are on top */
+}
+
+.left {
+    left: 10px;
+    /* Position left button */
+}
+
+.right {
+    right: 10px;
+    /* Position right button */
+}
+
+.arrow-btn:hover {
+    background-color: rgba(0,
+            0,
+            0,
+            0.8);
+    /* Darken on hover for better visibility */
+}
+
+#youtubeSec,
+#spotifySec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 30px;
+}
+
+#spotifySec {
+    margin-top: -49px;
+}
+
+#aboutVid,
+#aboutSong {
+    background-color: #fe4365;
+    width: 350px;
+    padding: 40px 50px;
+}
+
+#youtubeTitle,
+#question {
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.day {
+    padding: 10px 0;
+    border-bottom: 0.5px solid #ffaaba;
+    width: 90%;
+}
+
+#plan {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#plan img {
+    margin-right: 5px;
+}
+
+#email:hover,
+#plan:hover {
+    color: black;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+#youtubeVid {
+    width: 100%;
+    height: 550px;
+}
+
+/* About Section Styles */
+#about {
+    padding: 50px 0;
+    background-color: #ffffff;
+    /* Light background */
+    text-align: center;
+}
+
+.about-header {
+    margin-bottom: 30px;
+}
+
+.about-header h2 {
+    margin-bottom: 20px;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Center items */
+    margin: 0 auto;
+    max-width: 800px;
+    /* Max width for the content */
+}
+
+.about-item {
+    margin-bottom: 20px;
+    text-align: left;
+    /* Align text to the left */
+}
+
+.about-item h3 {
+    font-size: 22px;
+    /* Larger font for the section titles */
+    margin-bottom: 10px;
+    color: #5798ff;
+    /* Use your theme color */
+}
+
+.about-item p {
+    line-height: 1.6;
+    /* Better line spacing */
+    font-size: 16px;
+    color: #333;
+    /* Darker text color */
+}
+
+/* Contact Section Styles */
+#contact {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.contact-header {
+    margin-bottom: 30px;
+}
+
+.contact-header h2 {
+    margin-bottom: 20px;
+}
+
+.title-border {
+    height: 2px;
+    width: 70px;
+    background-color: #5798ff;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.contact-form-container {
+    max-width: 600px;
+    margin: auto;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group textarea {
+    height: 150px;
+}
+
+button {
+    background-color: #5798ff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #468ccf;
+    /* Darker shade on hover */
+}
+
+.blogs {
+    background-image: linear-gradient(to right, #478ac9, #db545a);
+    padding: 60px 50px;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+    gap: 50px 30px;
+    box-sizing: border-box;
+}
+
+.blog_row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.footer {
+    background-color: #ca7373;
+    box-shadow: 0px 22px 25px 31px rgba(0, 0, 0, 0.75);
+}
+
+.footer div {
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    padding: 49px;
+}
+
+@media screen and (max-width: 1200px) {
+    .blog_row {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .blogs {
+        grid-template-columns: repeat(auto-fill, minmax(40%, 1fr));
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #top {
+        display: unset;
+        justify-content: unset;
+        font-size: 12px;
+    }
+
+    #language {
+        padding: 10px 10px;
+    }
+
+    .slideText {
+        font-size: 15px !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .blogs {
+        gap: 15px;
+        grid-template-columns: repeat(auto-fill, minmax(80%, 1fr));
+    }
+}
